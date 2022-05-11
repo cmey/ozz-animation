@@ -30,6 +30,6 @@ Some parameters can be tuned from sample UI to move the attached object from a j
 Implementation
 ==============
 1. Load animation and skeleton as described in the [how to load an object from a file][link_how_to_load] section.
-2. Samples animation to get local-space transoformations, optionally blend with other animations, and finally convert local-space transformations to model-space matrices. See Playback sample for more details about these steps.
+2. Samples animation to get local-space transformations, optionally blend with other animations, and finally convert local-space transformations to model-space matrices. See Playback sample for more details about these steps.
 3. Concatenate object offset transformation (offset relative to the joint) with joint model-space matrix to compute final model-space transformation of the "attached object".  
 4. Use resulting transformation matrix to render "attached object" or update the scene graph.
